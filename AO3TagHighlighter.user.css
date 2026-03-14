@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name           Ao3 Tag Highlighter
+@namespace      github.com/RodFireProductions/AO3TagHighlighter
+@version        1.0.0
+@description    Highlights user specified tags.
+@author         RodFireProductions
+@license        unlicense
+@preprocessor   default
+
+@var color  font-color-1    "Set 1 | Font Color"        white
+@var color  bg-color-1      "Set 1 | Background color"  black
+@var text   border-r-1      "Set 1 | Border Radius"     5px
+@var text   padding-1       "Set 1 | Padding"           0px 5px
+
+@var color  font-color-2    "Set 2 | Font Color"        white
+@var color  bg-color-2      "Set 2 | Background color"  red
+@var text   border-r-2      "Set 2 | Border Radius"     5px
+@var text   padding-2       "Set 2 | Padding"           0px 5px
+
+@var color  font-color-3    "Set 3 | Font Color"        white
+@var color  bg-color-3      "Set 3 | Background Color"  blue
+@var text   border-r-3      "Set 3 | Border Radius"     5px
+@var text   padding-3       "Set 3 | Padding"           0px 5px
+==/UserStyle== */
+
+@-moz-document domain("archiveofourown.org"), domain("archiveofourown.gay"), domain("archive.transformativeworks.org"), domain("insecure.archiveofourown.org") {
+    a[href*="Self-Harm"],
+    a[href*="Angst"] {
+        color: var(--font-color-1);
+        background-color: var(--bg-color-1);
+        padding: var(--padding-1);
+        border-radius: var(--border-r-1);
+    }
+
+    a[href*="Hurt*s*Comfort"] {
+        color: var(--font-color-2);
+        background-color: var(--bg-color-2);
+        padding: var(--padding-2);
+        border-radius: var(--border-r-2);
+    }
+
+    a[href*="Smut"],
+    a[href*="Alternate%20Universe"] {
+        color: var(--font-color-3);
+        background-color: var(--bg-color-3);
+        padding: var(--padding-3);
+        border-radius: var(--border-r-3);
+    }
+}

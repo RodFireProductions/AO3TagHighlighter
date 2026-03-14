@@ -1,0 +1,44 @@
+/*
+// -- AO3 Tag Highlighter -- //
+// By RodFireProductions
+*/
+
+:root {
+    --font-color-1  : white;
+    --bg-color-1    : black;
+    --border-r-1    : 5px;
+    --padding-1     : 0px 5px;
+
+    --font-color-2  : white;
+    --bg-color-2    : red;
+    --border-r-2    : 5px;
+    --padding-2     : 0px 5px;
+
+    --font-color-3  : white;
+    --bg-color-3    : blue;
+    --border-r-3    : 5px;
+    --padding-3     : 0px 5px;
+}
+
+a[href*="Self-Harm"],
+a[href*="Angst"] {
+    color: var(--font-color-1);
+    background-color: var(--bg-color-1);
+    padding: var(--padding-1);
+    border-radius: var(--border-r-1);
+}
+
+a[href*="Hurt*s*Comfort"] {
+    color: var(--font-color-2);
+    background-color: var(--bg-color-2);
+    padding: var(--padding-2);
+    border-radius: var(--border-r-2);
+}
+
+a[href*="Smut"],
+a[href*="Alternate%20Universe"] {
+    color: var(--font-color-3);
+    background-color: var(--bg-color-3);
+    padding: var(--padding-3);
+    border-radius: var(--border-r-3);
+}
