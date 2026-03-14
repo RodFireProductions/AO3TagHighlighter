@@ -24,13 +24,17 @@ the CSS text area.
 
 <h3 id="stylus">Stylus</h3>
 
+If you don't have Ao3 account, you're in luck.
+Here's the [Stylus](https://add0n.com/stylus.html) version.
+
+Stylus is a browser extension. Once you have it installed, you just have to click on the following image and then `Install Stylus`.
+
+[![Install directly with Stylus](https://img.shields.io/badge/Install%20directly%20with-Stylus-00adad.svg)](https://raw.githubusercontent.com/RodFireProductions/AO3TagHighlighter/refs/heads/main/AO3TagHighlighter.user.css)
+
+Now, go [customize](#customize) it!
 
 <h3 id="customize">Customizing this Style</h3>
 
 #### Adding Tags
 
-### Changing Variables
-
-#### Site Skin
-
-#### Stylus
+#### Changing Variables

@@ -4,30 +4,34 @@
 */
 
 :root {
-    --font-color-1  : white;
-    --bg-color-1    : black;
+    /* Set 1 */
+    --font-color-1  : #000000;
+    --bg-color-1    : #EDC4F0;
     --border-r-1    : 5px;
     --padding-1     : 0px 5px;
 
-    --font-color-2  : white;
-    --bg-color-2    : red;
+    /* Set 2 */
+    --font-color-2  : #000000;
+    --bg-color-2    : #D2C4F0;
     --border-r-2    : 5px;
     --padding-2     : 0px 5px;
 
-    --font-color-3  : white;
-    --bg-color-3    : blue;
+    /* Set 3 */
+    --font-color-3  : #000000;
+    --bg-color-3    : #C6DEF2;
     --border-r-3    : 5px;
     --padding-3     : 0px 5px;
 }
 
-a[href*="Self-Harm"],
-a[href*="Angst"] {
+/* Set 1 */
+a[href*="Fluff"] {
     color: var(--font-color-1);
     background-color: var(--bg-color-1);
     padding: var(--padding-1);
     border-radius: var(--border-r-1);
 }
 
+/* Set 2 */
 a[href*="Hurt*s*Comfort"] {
     color: var(--font-color-2);
     background-color: var(--bg-color-2);
@@ -35,7 +39,8 @@ a[href*="Hurt*s*Comfort"] {
     border-radius: var(--border-r-2);
 }
 
-a[href*="Smut"],
+/* Set 3 */
+a[href="Original%20Character"],
 a[href*="Alternate%20Universe"] {
     color: var(--font-color-3);
     background-color: var(--bg-color-3);
