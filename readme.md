@@ -55,6 +55,7 @@ but it can differ.
 
 If you're using Stylus:
 * While in the extension, you can click the gear icon and change the variables in the popup.
+* The variable popup menu also comes up when before you're about to install it too.
 
 If you're using it as a site skin:
 * Look for the block of CSS that's contained within `:root{}`. Those are your variables.
