@@ -3,12 +3,16 @@
 // By RodFireProductions
 */
 
+/*
+// // These are the variables!
+// Change these to your delight.
+*/
 :root {
     /* Set 1 */
-    --font-color-1  : #000000;
-    --bg-color-1    : #EDC4F0;
-    --border-r-1    : 5px;
-    --padding-1     : 0px 5px;
+    --font-color-1  : #000000; /* Font Color */
+    --bg-color-1    : #EDC4F0; /* Background Color */
+    --border-r-1    : 5px; /* Border Radius | Makes the corners round */
+    --padding-1     : 0px 5px; /* The extra padding around your tag */
 
     /* Set 2 */
     --font-color-2  : #000000;
@@ -22,6 +26,22 @@
     --border-r-3    : 5px;
     --padding-3     : 0px 5px;
 }
+
+/*
+// // Selecting Your Tags
+// Intructions:
+
+There are three sets of defined tags in the CSS. Each have selectors like so:
+`a[href*="Tag"]`.
+
+1. Click on the tag you want to add and then look at the URL.
+    * Example: *Fluff and Angst* is `https://archiveofourown.org/tags/Fluff and Angst/works`
+2. Copy the part of the url between `tags/` and `/works`. It's usually just the same name
+but it can differ.
+3. Paste what you copied into the `Tag` spot of the above selector example:
+    * Note: If the URL shows spaces, replace the spaces with `%20`
+    * Example: `a[href*="Fluff%20and%20Angst"]`
+*/
 
 /* Set 1 */
 a[href*="Fluff"] {

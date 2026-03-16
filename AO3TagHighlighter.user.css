@@ -24,6 +24,21 @@
 ==/UserStyle== */
 
 @-moz-document domain("archiveofourown.org"), domain("archiveofourown.gay"), domain("archive.transformativeworks.org"), domain("insecure.archiveofourown.org") {
+    /*
+    // // Selecting Your Tags
+    // Intructions:
+
+    There are three sets of defined tags in the CSS. Each have selectors like so:
+    `a[href*="Tag"]`.
+
+    1. Click on the tag you want to add and then look at the URL.
+        * Example: *Fluff and Angst* is `https://archiveofourown.org/tags/Fluff and Angst/works`
+    2. Copy the part of the url between `tags/` and `/works`. It's usually just the same name
+    but it can differ.
+    3. Paste what you copied into the `Tag` spot of the above selector example:
+        * Note: If the URL shows spaces, replace the spaces with `%20`
+        * Example: `a[href*="Fluff%20and%20Angst"]`
+    */
 
     /* Set 1 */
     a[href*="Fluff"] {

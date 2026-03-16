@@ -37,4 +37,22 @@ Now, go [customize](#customize) it!
 
 #### Adding Tags
 
+There are three sets of defined tags in the CSS. Each have selectors like so:
+`a[href*="Tag"]`.
+
+1. Click on the tag you want to add and then look at the URL.
+    * Example: *Fluff and Angst* is `https://archiveofourown.org/tags/Fluff and Angst/works`
+2. Copy the part of the url between `tags/` and `/works`. It's usually just the same name
+but it can differ.
+3. Paste what you copied into the `Tag` spot of the above selector example:
+    * Note: If the URL shows spaces, replace the spaces with `%20`
+    * Example: `a[href*="Fluff%20and%20Angst"]`
+
 #### Changing Variables
+
+If you're using Stylus:
+* While in the extension, you can click the gear icon and change the variables in the popup.
+
+If you're using it as a site skin:
+* Look for the block of CSS that's contained within `:root{}`. Those are your variables.
+Change the values to your content.
