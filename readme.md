@@ -1,6 +1,9 @@
 # Ao3 Tag Highlighter
 
 A stylesheet that highlights specific Ao3 tags.
+By default it has three sets of color options, but you can add more.
+
+![Screenshot](screenshot.png)
 
 ## How to Use
 
