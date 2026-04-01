@@ -15,7 +15,7 @@ You can use this stylesheet via two methods:
 <h3 id="siteskin">Ao3 Site Skins</h3>
 
 1. Head to the [create Site Skin page](https://archiveofourown.org/skins/new?skin_type=Skin).
-    * **Note:** If you're not using the default Ao3 skin, due the following:
+    * **Note:** If you're not using the default Ao3 skin, do the following:
         1. Scroll down to the Advanced section and open it.
         2. Click `Add parent skin`.
         3. Search for your current skin and add it.
